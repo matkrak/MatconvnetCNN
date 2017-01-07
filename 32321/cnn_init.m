@@ -51,7 +51,7 @@ end
 % Meta parameters
 net.meta.inputSize = [32 32 1] ;
 net.meta.trainOpts.learningRate = 0.001 ;
-net.meta.trainOpts.numEpochs = 50 ;
+net.meta.trainOpts.numEpochs = 3 ;
 net.meta.trainOpts.batchSize = 30 ;
 
 % Fill in defaul values
