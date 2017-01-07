@@ -22,7 +22,7 @@ flag_print_learning_curves_to_png = 1;
 listdir = dir();
 
 for directory = listdir'
-    if (isdir(directory.name) == 0 || strcmp(directory.name, '.') || strcmp(directory.name, '..') || strcmp(directory.name, '.git'))
+    if (isdir(directory.name) == 0 || strcmp(directory.name, '.') || strcmp(directory.name, '..') || strcmp(directory.name, '.git') || strcmp(directory.name, 'WYNIKI'))
         display(directory.name) 
         display('Skipping. . .')
         continue;

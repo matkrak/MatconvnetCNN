@@ -8,8 +8,8 @@
 %  can not handle errors yet (errors if files dont exist)
 
 
-home = '/home/kraki/Documents/WSW/Projekt/MatconvnetCNN'
-dest_path = '/home/kraki/Documents/WSW/Projekt/WYNIKI'
+home = '/home/kraki/Documents/WSW/Projekt/MatconvnetCNN/diffDataSize'
+dest_path = '/home/kraki/Documents/WSW/Projekt/MatconvnetCNN/diffDataSize/WYNIKI'
 
 file_name = 'info.mat'
 
@@ -21,7 +21,7 @@ listdir = dir();
 for directory = listdir'
     display(directory.name) 
     
-    if (~isdir(directory.name) || strcmp(directory.name, '.') || strcmp(directory.name, '..') || strcmp(directory.name, '.git'))
+    if (~isdir(directory.name) || strcmp(directory.name, '.') || strcmp(directory.name, '..') || strcmp(directory.name, '.git') || strcmp(directory.name, 'WYNIKI'))
         display('Skipping. . .')
         continue;
     end
