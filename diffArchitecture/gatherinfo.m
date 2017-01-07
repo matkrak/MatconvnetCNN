@@ -8,7 +8,7 @@
 %  can not handle errors yet (errors if files dont exist)
 
 
-home = '/home/kraki/Documents/WSW/Projekt/net'
+home = '/home/kraki/Documents/WSW/Projekt/MatconvnetCNN'
 dest_path = '/home/kraki/Documents/WSW/Projekt/WYNIKI'
 
 file_name = 'info.mat'
