@@ -17,6 +17,14 @@ so that now different nets performs binary classification.
 <br>
 <br>
 No data has been provided here on github.
+<br>
+<br>
+<b> Files for a single net (some might be shared between a few)</b>
+* prepareData - use stored images and labels to createa desired imdb structure
+* cnn_init - initialise network of desired type (architecture, input size)
+* cnn - train network (majority of this scipt comes from minst examples)
+* cnn_train - training function. Just minor changes w.r.t the orginal matconvnet/examples/mnist script
+* show_results - perform experiments on the network, plot some figures, make some tests
 
 ### If you want to do binary classification of your own data:
 
