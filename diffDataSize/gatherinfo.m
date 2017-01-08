@@ -41,7 +41,7 @@ for directory = listdir'
     cd data
     cd baseline
     
-    copyfile('info.mat', tmp)
+    copyfile(file_name, tmp)
     cd(home)
 end
 display('***** D O N E *****')
